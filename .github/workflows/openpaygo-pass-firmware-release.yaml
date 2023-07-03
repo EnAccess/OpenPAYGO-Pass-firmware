@@ -19,6 +19,3 @@ jobs:
 
       - name: Use release tag
         run: echo $RELEASE_TAG
-
-
-  :
