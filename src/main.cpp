@@ -1,10 +1,21 @@
-// Arduino base libraries
-#include "Arduino.h"
 
-void setup() {
-  delay(10);
+#include "application.hpp"
+
+
+
+
+
+void setup() 
+{
+  peripherals_setup();
 }
 
-void loop() {
-  delay(10);
+
+
+void loop()
+{
+  main_app_loop(); 
 }
+
+
+
