@@ -1,0 +1,59 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/claudioshawawreh/Desktop/OpenPAYGO-Pass-firmware/include",
+                "/Users/claudioshawawreh/Desktop/OpenPAYGO-Pass-firmware/src",
+                "/Users/claudioshawawreh/Desktop/OpenPAYGO-Pass-firmware/.pio/libdeps/ArduinoMega/MFRC522/src",
+                "/Users/claudioshawawreh/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/Users/claudioshawawreh/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/Users/claudioshawawreh/.platformio/packages/framework-arduino-avr/variants/mega",
+                "/Users/claudioshawawreh/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/Users/claudioshawawreh/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/Users/claudioshawawreh/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/Users/claudioshawawreh/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/claudioshawawreh/Desktop/OpenPAYGO-Pass-firmware/include",
+                    "/Users/claudioshawawreh/Desktop/OpenPAYGO-Pass-firmware/src",
+                    "/Users/claudioshawawreh/Desktop/OpenPAYGO-Pass-firmware/.pio/libdeps/ArduinoMega/MFRC522/src",
+                    "/Users/claudioshawawreh/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/Users/claudioshawawreh/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/Users/claudioshawawreh/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "/Users/claudioshawawreh/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/Users/claudioshawawreh/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/Users/claudioshawawreh/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/Users/claudioshawawreh/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60109",
+                "ARDUINO_AVR_MEGA2560",
+                "DEBUGUART",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega2560__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "/Users/claudioshawawreh/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega2560",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
